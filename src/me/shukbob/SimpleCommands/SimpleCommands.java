@@ -136,5 +136,10 @@ public class SimpleCommands extends JavaPlugin {
 				sender.sendMessage(ChatColor.DARK_AQUA + "[SC]" + ChatColor.RED + " You don't have permissions to use this platform!");
 			}
 		}
+		if(commandLabel.equalsIgnoreCase("sc")) {
+			PluginDescriptionFile pdfFile = this.getDescription();
+			sender.sendMessage("This server is running SimpleCommands v" + pdfFile.getVersion() + ". Made by Shuk and Delocaz" );
+			
+		}
 
 		return false; } }
