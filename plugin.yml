@@ -19,3 +19,5 @@ commands:
         description: Set the world time
       server:
         description: Server Settings
+      sc:
+        description: SC Version
