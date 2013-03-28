@@ -3,17 +3,11 @@ main: me.shukbob.SimpleCommands.SimpleCommands
 
 version: 1.0
 commands:
-      ckill:
-        description: Kill
       kill:
         description: Kill
       heal:
         description: Heal
-      cheal:
-        description: Heal
-      tgm:
-        description: Gamemode Toggle
-      ctgm:
+      gm:
         description: Gamemode Toggle
       time:
         description: Set the world time
